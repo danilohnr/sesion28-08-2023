@@ -1,0 +1,26 @@
+1.Se le va a pedir al usuario que ingrese su edad, su sexo y si porta armas.
+2.Evaluar los casos de edades negativas.
+3.Si porta armas, no puede entrar a la disco.
+4.Si la edad es menor a 18, no puede entrar a la disco.
+5.Si es mujer y mayor de edad (mayor o igual a 18), puede entrar a la disco y 
+consumir bebidas alcoholicas.
+6.Si es varon y su edad està entre 18 y 21, puede entrar a la disco pero no 
+consumir bebidas alcoholicas.
+7.Si es varon y es mayor de 21, puede entrar a la disco y consumir bebidas 
+alcoholicas.
+
+
+
+Y
+var1	var2	var1 Y var2
+1	1	1
+1	0	0
+0	1	0
+0	0	0
+::::::::::::::::::::::::::::::::::
+O
+var1	var2	var1 O var2
+1	1	1
+1	0	1
+0	1	1
+0	0	0
